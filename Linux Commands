@@ -10,6 +10,7 @@ conda install -c conda-forge mamba
 
 # install dependencies and create phage-host-prediction environment (modified yaml file)
 mamba env create -f environment.yaml
+mamba install jupyter
 
 # remove env
 conda env list
