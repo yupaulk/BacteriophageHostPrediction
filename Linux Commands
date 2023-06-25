@@ -1,0 +1,21 @@
+# run jupyter (must be inside phi env and in project root)
+conda activate phi
+jupyter-lab
+
+# install build essential
+sudo apt install build-essential
+
+# install anaconda3 then mamba
+conda install -c conda-forge mamba
+
+# install dependencies and create phage-host-prediction environment (modified yaml file)
+mamba env create -f environment.yaml
+
+# remove env
+conda env list
+conda deactivate
+conda env remove -n phi
+
+# switch to phi env
+conda activate phi
+
