@@ -1,0 +1,21 @@
+name: phi
+channels:
+    - conda-forge
+dependencies:
+    - python=3.9
+    - regex
+    - nltk
+    - biopython=1.78
+    - ete3=3.1.2
+    - pandas
+    - numpy=1.23
+    - scipy
+    - scikit-learn=0.24
+    - imbalanced-learn=0.7.0
+    - pyyaml=5.4.1
+    - xgboost
+    - joblib
+    - numba
+    - matplotlib
+    - jsonnet
+    - seaborn
